@@ -11,7 +11,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 # Install cmake and make
 sudo apt-get update
-sudo apt-get install -y cmake make
+sudo apt-get install -y cmake make build-essential libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev
 ```
 
 ## Docker and dependencies Installation
